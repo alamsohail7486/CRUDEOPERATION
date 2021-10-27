@@ -1,0 +1,341 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@section Scripts  {
+
+
+    <script>
+        $(document).ready(function () {
+            PageList();
+            $('#edit').summernote();
+           
+            $('#insPage').show();
+            $('#updPage').hide();
+        });
+
+        //$(document).ready(function () {
+            
+        //});
+
+        var postForm = function () {
+            var content = $('textarea[name="Description"]').html($('#edit').code());
+        }
+        function InsertPage() {
+            //here we are checking it's validation.//
+            if ($("#Title").val() == "") {
+                alertify.error("Title is required")
+            }
+            else if ($("#Slug").val() == "") {
+                alertify.error("Slug is required")
+            }
+            else if ($("#Description").val() == "") {
+                alertify.error("Description is required")
+            }
+            else if ($("#Image").val() == "") {
+                alertify.error("Image is required")
+            }
+            else if ($("#Status").val() == "") {
+                alertify.error("Status is required")
+            }
+
+            else {
+                var Pageobj = {
+                    Title: $("#Title").val(),
+                    Slug: $("#Slug").val(),
+                    Description: $("#Description").val(),
+                    Image: $("#Image").val(),
+                    Status: $("#Status").val()
+                }
+                $.ajax({
+                    url: "/Page/InsertPage",
+                    type: "POST",
+                    data: Pageobj,
+                    success: function (result) {
+                        alertify.success("The data is inserted successfully");
+                        PageList();
+
+                    },
+                    error: function (result) {
+                        alertify.error("Error is occurs");
+                    }
+
+                });
+            }
+        }
+
+        function PageList() {
+            // alert('hello');
+            $.ajax({
+                url: "/Page/GetAllMyPage",
+                type: "GET",
+                dataType: "Json",
+                success: function (result) {
+                    // console.log('Alam bhai ko result', result);
+
+                    var html = '';
+                    $.each(result, function (key, item) {
+                        // console.log('alam ka jalwa', item);
+                        html += '<tr>';
+                        html += '<td>' + item.id + '</td>';
+                        html += '<td>' + item.title + '</td>';
+                        html += '  <td>' + item.slug + '</td>';
+                        html += ' <td>' + item.description + '</td>';
+                        html += ' <td><img src="../Images/' + item.image + '" height="50" width="50"/></td>';
+                        html += '<td>' + item.strStatus + '</td>';
+
+                        html += ' <td style= "Display:flex; "><button type="button" id="deletePage" class="btn btn-primary" style="margin-right:5%;" data-id=' + item.id + ' data-img='+item.image+'>Delete</button>';
+                        html += '| <button type="button" class="btn btn-primary" onclick="Edit(' + item.id + ')"> Edit </button></td>';
+
+                        html += '</tr>';
+                    });
+                    $(".page").html(html);
+                }
+            });
+        }
+
+        $('.page').on('click', "#deletePage", function () {
+            
+            var id = $(this).attr("data-id");
+            var image = $(this).attr("data-img");
+            DeletePage(id, image);
+
+        });
+        function Edit(Id) {
+           
+            
+            // console.log("function called");
+
+            $('#updPage').show();
+            $('#insPage').hide();
+            $.ajax({
+                url: "/Page/SelectPageById?Id=" + Id,
+                type: "GET",
+                dataType: "Json",
+                success: function (result) {
+                    
+                        $("#Id").val(result.id),
+                        $("#Title").val(result.title),
+                        $("#Slug").val(result.slug),
+                        $("#edit").summernote("code", result.description);
+                        //$("#Description").val(result.description),
+                        $("#Imagedit").html('<img src="../Images/' + result.image + '" height="50" width="50" />');
+                           
+                        $("#Status").val(result.status)
+                       PageList();
+                },
+                error: function (result) {
+                    alertify.error("Error is occurs");
+                },
+
+            });
+        }
+
+        function UpdatePage() {
+            
+          
+                    $('#updPage').hide();
+                    $('#insPage').show();
+                    alertify.success("The data is successfully updated");
+               
+        }
+
+        function DeletePage(Id, image) {
+            alertify.confirm('Confirm Title', 'Confirm Message',
+                function () {
+                    $.ajax({
+                        url: "/Page/DeletePage",
+                        data: { id: Id, imgdel: image },
+                        type: "POST",
+                        success: function (result) {
+                            alertify.success("You have click ok");
+                            PageList();
+                        },
+                    });
+                }
+                , function () {
+                    alertify.error('Cancel')
+                })
+        }
+
+        function Reset() {
+            $("#Title").val('');
+            $("#Slug").val('');
+            $("#edit").summernote('code',"");
+            $("#Image").val('');
+            $("#Status").val('');
+            $("#Imagedit").html('');
+
+        }
+       
+        $(document).ready(function () {             /*SLUG CODE FROM HERE*/
+            $("#Title").keyup(function () {
+                var Text = $(this).val();
+                Text = Text.toLowerCase();
+                Text = Text.replace(/[^a-zA-Z0-9]+/g, '-');
+                $("#Slug").val(Text);
+            });
+        });
+        ////Status code of jquery are done here.........
+
+        $(document).ready(function () {
+            
+            $('.hide input[type="radio"]').click(function () {
+                var value = $(this).val();
+                $.ajax({
+                    url: "/Page/InsertPage",
+                    type: 'post',
+                    data: { ajax: 1, value: value },
+                    success: function (response) {
+                        $('#response').text(value);
+                    }
+                });
+            });
+        });
+
+        $(document).ready(function () {
+            $(".custom-file-input").on("change", function () {
+                //console.log($(this));
+                //var filename = $(this).val().split("\\").pop();
+                //$(this).next(".custom-file-label").html(filename);
+
+                var filelabel1 = $(this).next(".custom-file-input");
+                var files = $(this)[0].files;
+                if (files.length > 1) {
+                    filelabel1.html(files.length + 'files selected');
+
+                }
+                else if (files.length == 1) {
+                    filelabel1.html(files[0].name);
+                }
+            })
+
+        });
+
+    </script>
+}
+
+
+
+
+<form method="post" asp-controller="Page" asp-action="New" enctype="multipart/form-data">
+
+    <input type="hidden" class="form-control" id="Id" name="Id" />
+    <div class="form-group">
+        <h4>Enter your Title</h4>
+        <input type="text" class="form-control" id="Title" name="Title" required/>
+        @*<input type="text" id="Title" />*@
+
+    </div>
+    <div class="form-group">
+        <h4>Enter your Slug </h4>
+        <input type="text" class="form-control"  id="Slug"  name="Slug"/>
+    </div>
+    <div class="form-group">
+        <h4>Enter your Description</h4>
+        @*<label  class="custom-control-label"></label>*@
+
+        <textarea id="edit" name="Description" required>  </textarea>
+
+    </div>
+
+    <div class="form-group row">
+
+        @*<div class="col-sm-10">
+        <div class="custom-file">*@
+        @*</div>
+        </div>*@
+        @*<input type="submit" value="Upload"/>*@
+
+        <label class="col-sm-2 col-form-label">Photo</label>
+        <input class="form-control" multiple type="file" name="ProfileImage" id="Image" required />
+
+        <div id="Imagedit"></div>
+
+    </div>
+    <img src="@ViewData["FileLocation"]" />
+
+    <div class="form-group">
+        <h4>Enter your Status</h4>
+        <input type="radio" class="status"  name="Status" value="1" checked /> True
+        <input type="radio" class="status" name="Status" value="0" /> False
+
+    </div>
+
+    <button type="submit" id="insPage" class="btn btn-success" @*onclick="InsertPage();*@>Insert</button>
+    <button type="submit" id="updPage" class="btn btn-primary" onclick="UpdatePage();">Update</button>
+    <button type="button" id="updPage" class="btn btn-danger" onclick="Reset();">Reset</button>
+   
+</form>
+
+
+
+<h4>Insert Page</h4>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Slug</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody class="page">
+    </tbody>
+</table>
+
+
+
+<script>
+
+    $(document).ready(function () {
+
+        $("#Page").validate({
+            ignore: ":hidden",
+            rules: {
+                Title: {
+                    required: true,
+                    minlength: 3
+                },
+                Slug: {
+                    required: true,
+                    minlength: 3
+                },
+                Description: {
+                    required: true,
+                },
+                Image: {
+                    requuired: true,
+                },
+                Stauts: {
+                    required: true
+                },
+
+            },
+            submitHandler: function (form) {
+                alert('valid form submission'); // for demo
+                $.ajax({
+                    type: "POST",
+                    url: "Page/submit",
+                    data: $(form).serialize(),
+                    success: function () {
+                        $(form).html("<div id='message'></div>");
+                        $('#message').html("<h2>Your request is on the way!</h2>")
+                            .append("<p>someone</p>")
+                            .hide()
+                            .fadeIn(1500, function () {
+                                $('#message').append("<img id='checkmark' src='images/ok.png' />");
+                            });
+                    }
+                });
+                return false; // required to block normal submit since you used ajax
+            }
+
+        });
+
+    });
+</script>
+

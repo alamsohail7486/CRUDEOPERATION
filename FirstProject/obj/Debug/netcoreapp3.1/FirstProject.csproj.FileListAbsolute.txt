@@ -1,0 +1,140 @@
+D:\FirstProject\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\FirstProject\bin\Debug\netcoreapp3.1\appsettings.json
+D:\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.exe
+D:\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.deps.json
+D:\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.runtimeconfig.json
+D:\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.runtimeconfig.dev.json
+D:\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.dll
+D:\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.pdb
+D:\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.Views.dll
+D:\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.Views.pdb
+D:\FirstProject\bin\Debug\netcoreapp3.1\Dapper.dll
+D:\FirstProject\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\FirstProject\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\FirstProject\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\FirstProject\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\FirstProject\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\FirstProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.AssemblyInfoInputs.cache
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.AssemblyInfo.cs
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.csproj.CoreCompileInputs.cache
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.MvcApplicationPartsAssemblyInfo.cache
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.RazorAssemblyInfo.cache
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.RazorAssemblyInfo.cs
+D:\FirstProject\obj\Debug\netcoreapp3.1\staticwebassets\FirstProject.StaticWebAssets.Manifest.cache
+D:\FirstProject\obj\Debug\netcoreapp3.1\staticwebassets\FirstProject.StaticWebAssets.xml
+D:\FirstProject\obj\Debug\netcoreapp3.1\scopedcss\bundle\FirstProject.styles.css
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.TagHelpers.input.cache
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.TagHelpers.output.cache
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.RazorCoreGenerate.cache
+D:\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.RazorTargetAssemblyInfo.cache
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.RazorTargetAssemblyInfo.cs
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.Views.pdb
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.csproj.CopyComplete
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.dll
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.pdb
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.genruntimeconfig.cache
+D:\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Page\Index.cshtml.g.cs
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.csproj.AssemblyReference.cache
+D:\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.exe
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.deps.json
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.runtimeconfig.json
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.runtimeconfig.dev.json
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.dll
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.pdb
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.Views.dll
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.Views.pdb
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.csproj.AssemblyReference.cache
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.AssemblyInfoInputs.cache
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.AssemblyInfo.cs
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.csproj.CoreCompileInputs.cache
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.RazorAssemblyInfo.cache
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.RazorAssemblyInfo.cs
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\staticwebassets\FirstProject.StaticWebAssets.Manifest.cache
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\staticwebassets\FirstProject.StaticWebAssets.xml
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\scopedcss\bundle\FirstProject.styles.css
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.TagHelpers.input.cache
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.TagHelpers.output.cache
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.RazorCoreGenerate.cache
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Index.cshtml.g.cs
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Page\Index.cshtml.g.cs
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.RazorTargetAssemblyInfo.cache
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.RazorTargetAssemblyInfo.cs
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.Views.pdb
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.csproj.CopyComplete
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.dll
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.pdb
+C:\Users\Sujan\Downloads\Telegram Desktop\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.genruntimeconfig.cache
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.exe
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.deps.json
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.runtimeconfig.json
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.runtimeconfig.dev.json
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.dll
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.pdb
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.Views.dll
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\FirstProject.Views.pdb
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.csproj.AssemblyReference.cache
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.AssemblyInfoInputs.cache
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.AssemblyInfo.cs
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.csproj.CoreCompileInputs.cache
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.RazorAssemblyInfo.cache
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.RazorAssemblyInfo.cs
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\staticwebassets\FirstProject.StaticWebAssets.Manifest.cache
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\staticwebassets\FirstProject.StaticWebAssets.xml
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\scopedcss\bundle\FirstProject.styles.css
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.TagHelpers.input.cache
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.TagHelpers.output.cache
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.RazorCoreGenerate.cache
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Index.cshtml.g.cs
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Page\Index.cshtml.g.cs
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.RazorTargetAssemblyInfo.cache
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.RazorTargetAssemblyInfo.cs
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.Views.pdb
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.csproj.CopyComplete
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.dll
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.pdb
+C:\Users\md sohail alam\Downloads\Telegram Desktop\FirstProject\FirstProject\FirstProject\obj\Debug\netcoreapp3.1\FirstProject.genruntimeconfig.cache
